@@ -1,4 +1,4 @@
-# Initial page
+# activemq-in-action
 
 ## **1、ActiveMQ Action入门**
 
@@ -91,4 +91,39 @@ JMS为企业消息提供一套API。MessageProducer类往目的的发送消息�
 
 
 **连接器：**提供客户机到代理通信\(传输连接器\)或代理到代理通信\(网络连接器\)的机制
+
+连接器URI：
+
+URI=用于标识抽象的资源或者物理资源的字符串
+
+tcp://localhost:61616 =在本机物理机上的61616创建TCP连接  
+
+**传输连接器**
+
+**用于接收和监听客户机连接的机制**
+
+```text
+<transportConnectors>
+    <transportConnector name="openwire" uri="tcp://localhost:61616"
+        discoveryUri="multicast://default"/>
+    <transportConnector name="ssl" uri="ssl://localhost:61617"/>
+    <transportConnector name="stomp" uri="stomp://localhost:61613"/>
+    <transportConnector name="xmpp" uri="xmpp://localhost:61222"/>
+</transportConnectors>
+```
+
+总结：
+
+| protocol（协议） | 描述 |
+| :--- | :--- |
+| TCP | 传输控制协议。大多数用例的默认网络协议。高度可靠的主机对主机协议。tcp://hostname:port?key=value&key=value |
+| NIO | NIO协议。为从生产者到代理的连接提供更好的可伸缩性                       nio://hostname:port?key=value |
+| UDP | 用户数据报协议。处理客户端和代理之间的防火墙。UDP不保证包的顺序和唯一性，而且是无连接的。                                                                                                  udp://hostname:port?key=value |
+| SSL | 安全套接层协议。允许安全通信。                                                             ssl://hostname:port?key=value                                                                                           System parameters:                                                                                                                           -Djavax.net.ssl.keyStore=client.ks                                                                                                   -Djavax.net.ssl.keyStorePassword="password"                                                                            -Djavax.net.ssl.trustStore=client.ts |
+| HTTP\(S\) | 处理客户端和代理之间的防火墙。                                                                  http\[s\]://hostname:port?key=value |
+| VM | 用于在相同的JVM进行通信                                                                                                                               vm://brokerName?key=value |
+
+Keystores=持有您的私有证书                  Truststores=持有其他受信任证书的应用程序
+
+
 
