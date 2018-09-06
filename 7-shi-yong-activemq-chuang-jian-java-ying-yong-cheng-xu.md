@@ -1,7 +1,3 @@
----
-description: Creating Java applications with ActiveMQ
----
-
 # 7、使用ActiveMQ创建java应用程序
 
 完整配置的代理可以为来自相同应用程序（使用VM协议）的客户机和来自远程应用程序的客户机提供服务。
