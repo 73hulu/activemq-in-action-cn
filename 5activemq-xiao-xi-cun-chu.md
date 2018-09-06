@@ -4,11 +4,11 @@
 
 存储队列：FIFO（先进先出）
 
-![&#x961F;&#x5217;](.gitbook/assets/1%20%283%29.png)
+![&#x961F;&#x5217;](.gitbook/assets/1.png)
 
 存储主题：
 
-![](.gitbook/assets/3%20%281%29.png)
+![](.gitbook/assets/3.png)
 
 ActiveMQ推荐消息存储的方式：KahaDB
 

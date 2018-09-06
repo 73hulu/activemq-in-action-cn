@@ -6,5 +6,5 @@
 
 示例2：队列模
 
-![](.gitbook/assets/3.png)
+![](.gitbook/assets/3%20%281%29.png)
 

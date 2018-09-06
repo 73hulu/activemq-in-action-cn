@@ -10,7 +10,7 @@ ActiveMQ充当中间件的作用，允许以异步方式进行异构集成和交
 
 耦合指两个或多个应用程序或系统之间的相互依赖。使用RPC，当一个应用程序调用另一个应用程序时，调用方将被阻塞，直到被调用方将控制权返回给调用方。
 
-![](.gitbook/assets/1.png)
+![](.gitbook/assets/1%20%283%29.png)
 
 什么时候使用ActiveMQ
 
@@ -84,7 +84,7 @@ JMS为企业消息提供一套API。MessageProducer类往目的的发送消息�
 
 示例2：队列模式
 
-![Queue&#x6A21;&#x5F0F;](.gitbook/assets/3.png)
+![Queue&#x6A21;&#x5F0F;](.gitbook/assets/3%20%281%29.png)
 
 ## **4、连接ActiveMQ**
 
