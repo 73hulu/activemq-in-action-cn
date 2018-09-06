@@ -12,6 +12,8 @@ tcp://localhost:61616 =在本机物理机上的61616创建TCP连接
 
 **用于接收和监听客户机连接的机制**
 
+ **不同的协议需要设置不同的网络监听端口**
+
 ```text
 <transportConnectors>
     <transportConnector name="openwire" uri="tcp://localhost:61616"
