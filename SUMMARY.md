@@ -9,4 +9,5 @@
 * [6、ActiveMQ安全](6activemq-an-quan.md)
 * [7、使用ActiveMQ创建java应用程序](7-shi-yong-activemq-chuang-jian-java-ying-yong-cheng-xu.md)
 * [8、ActiveMQ集成到应用服务器](8activemq-ji-cheng-dao-ying-yong-fu-wu-qi.md)
+* [9、其他语言的ActiveMQ消息传递](9-qi-ta-yu-yan-de-activemq-xiao-xi-chuan-di.md)
 
