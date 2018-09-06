@@ -12,4 +12,5 @@
 * [9、其他语言的ActiveMQ消息传递](9-qi-ta-yu-yan-de-activemq-xiao-xi-chuan-di.md)
 * [10、在企业中部署ActiveMQ](10-zai-qi-ye-zhong-bu-shu-activemq.md)
 * [11、运行中ActiveMQ代理的特性](11-yun-hang-zhong-activemq-dai-li-de-te-xing.md)
+* [12、客户端高级选项](12-ke-hu-duan-gao-ji-xuan-xiang.md)
 
